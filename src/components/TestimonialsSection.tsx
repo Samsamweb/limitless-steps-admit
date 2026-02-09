@@ -28,13 +28,13 @@ const testimonials = [
   {
     quote: "The essay database gave my daughter real examples to learn from. She understood what worked before she started writing.",
     parent: "Karen M.",
-    outcome: "Student admitted to Stanford University",
+    outcome: "Student admitted to UT Austin",
     classYear: "Class of 2029",
   },
   {
     quote: "Worth every penny. The guarantee showed confidence, and they delivered on their promise.",
     parent: "David H.",
-    outcome: "Student admitted to UPenn",
+    outcome: "Student admitted to Cornell",
     classYear: "Class of 2029",
   },
 ];
