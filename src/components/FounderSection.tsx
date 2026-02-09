@@ -13,11 +13,11 @@ export function FounderSection() {
           </h2>
 
           <div className="flex flex-col md:flex-row gap-10 items-start">
-            <div className="shrink-0 w-52 h-64 rounded-xl overflow-hidden mx-auto md:mx-0 shadow-xl border-2 border-primary/10">
+            <div className="shrink-0 w-44 h-52 rounded-full overflow-hidden mx-auto md:mx-0 shadow-xl border-2 border-primary/10">
               <img
                 src={founderPhoto}
                 alt="Samuel Jacobowitz, founder of Cambridge College Consulting"
-                className="w-full h-full object-cover object-[center_20%] scale-125"
+                className="w-full h-full object-cover object-[center_15%] scale-150"
               />
             </div>
 
