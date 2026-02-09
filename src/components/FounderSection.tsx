@@ -5,19 +5,19 @@ import founderPhoto from "@/assets/founder-headshot.jpg";
 
 export function FounderSection() {
   return (
-    <section id="founder" className="section-padding bg-warm-white">
+    <section id="founder" className="section-padding bg-primary/5">
       <div className="max-w-7xl mx-auto">
-        <div className="max-w-3xl mx-auto">
-          <h2 className="font-display text-3xl sm:text-4xl font-bold text-foreground mb-8 text-center">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="font-display text-3xl sm:text-5xl font-bold text-foreground mb-10 text-center">
             Meet the Founder
           </h2>
 
-          <div className="flex flex-col md:flex-row gap-8 items-start">
-            <div className="shrink-0 w-48 h-72 rounded-xl overflow-hidden mx-auto md:mx-0 shadow-lg">
+          <div className="flex flex-col md:flex-row gap-10 items-start">
+            <div className="shrink-0 w-52 h-64 rounded-xl overflow-hidden mx-auto md:mx-0 shadow-xl border-2 border-primary/10">
               <img
                 src={founderPhoto}
                 alt="Samuel Jacobowitz, founder of Cambridge College Consulting"
-                className="w-full h-full object-cover object-top"
+                className="w-full h-full object-cover object-[center_20%] scale-125"
               />
             </div>
 

@@ -34,7 +34,7 @@ const testimonials = [
   {
     quote: "Worth every penny. The guarantee showed confidence, and they delivered on their promise.",
     parent: "David H.",
-    outcome: "Student admitted to UPenn",
+    outcome: "Student admitted to Cornell",
     classYear: "Class of 2029",
   },
 ];
