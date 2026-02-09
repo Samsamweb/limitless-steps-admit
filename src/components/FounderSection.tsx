@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-import founderPhoto from "@/assets/founder-headshot.jpg";
+import founderPhoto from "@/assets/founder-headshot-new.png";
 
 export function FounderSection() {
   return (
