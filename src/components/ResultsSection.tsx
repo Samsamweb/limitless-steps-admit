@@ -8,7 +8,7 @@ const stats = [
 
 export function ResultsSection() {
   return (
-    <section id="results" className="section-padding bg-primary text-primary-foreground">
+    <section id="results" className="section-padding bg-crimson-light">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-14">
           <h2 className="font-display text-3xl sm:text-4xl font-bold mb-4">
