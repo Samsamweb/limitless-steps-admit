@@ -8,7 +8,7 @@ const metrics = [
 
 export function EssayDatabaseSection() {
   return (
-    <section id="essays" className="section-padding bg-crimson-light">
+    <section id="essays" className="section-padding bg-primary text-primary-foreground">
       <div className="max-w-7xl mx-auto">
         <div className="max-w-3xl mx-auto text-center mb-10">
           <BookOpen className="h-10 w-10 text-primary mx-auto mb-6" />
