@@ -11,7 +11,7 @@ export function EssayDatabaseSection() {
     <section id="essays" className="section-padding bg-primary text-primary-foreground">
       <div className="max-w-7xl mx-auto">
         <div className="max-w-3xl mx-auto text-center mb-10">
-          <BookOpen className="h-10 w-10 text-primary mx-auto mb-6" />
+          <BookOpen className="h-10 w-10 text-accent mx-auto mb-6" />
           <h2 className="font-display text-3xl sm:text-4xl font-bold text-primary-foreground mb-4">
             The Accepted Essay Database
           </h2>

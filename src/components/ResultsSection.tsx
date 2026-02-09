@@ -21,10 +21,10 @@ export function ResultsSection() {
 
         <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
           {stats.map((stat) => (
-            <div key={stat.label} className="text-center bg-primary-foreground/10 border border-primary-foreground/20 rounded-2xl p-10">
-              <stat.icon className="h-8 w-8 mx-auto mb-4 text-accent" />
-              <div className="font-display text-6xl font-bold mb-3">{stat.value}</div>
-              <div className="text-sm text-primary-foreground/80 font-medium">{stat.label}</div>
+            <div key={stat.label} className="text-center bg-background border border-primary/15 rounded-2xl p-10 shadow-sm">
+              <stat.icon className="h-8 w-8 mx-auto mb-4 text-primary" />
+              <div className="font-display text-6xl font-bold text-foreground mb-3">{stat.value}</div>
+              <div className="text-sm text-muted-foreground font-medium">{stat.label}</div>
             </div>
           ))}
         </div>
