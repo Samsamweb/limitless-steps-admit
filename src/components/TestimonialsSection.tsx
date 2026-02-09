@@ -28,7 +28,7 @@ const testimonials = [
   {
     quote: "The essay database gave my daughter real examples to learn from. She understood what worked before she started writing.",
     parent: "Karen M.",
-    outcome: "Student admitted to UT Austin",
+    outcome: "Student admitted to The University of Texas at Austin",
     classYear: "Class of 2029",
   },
   {
