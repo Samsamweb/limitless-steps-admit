@@ -12,13 +12,13 @@ export function EssayDatabaseSection() {
       <div className="max-w-7xl mx-auto">
         <div className="max-w-3xl mx-auto text-center mb-10">
           <BookOpen className="h-10 w-10 text-primary mx-auto mb-6" />
-          <h2 className="font-display text-3xl sm:text-4xl font-bold text-foreground mb-4">
+          <h2 className="font-display text-3xl sm:text-4xl font-bold text-primary-foreground mb-4">
             The Accepted Essay Database
           </h2>
-          <p className="text-lg text-muted-foreground mb-4">
+          <p className="text-lg text-primary-foreground/70 mb-4">
             A living, high-value library of previously accepted student essays with analysis: what worked, what didn't, and why. Your student never starts from a blank page.
           </p>
-          <p className="text-sm text-primary font-semibold">
+          <p className="text-sm text-accent font-semibold">
             Access included when you work with us.
           </p>
         </div>
