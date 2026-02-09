@@ -11,10 +11,10 @@ export function ResultsSection() {
     <section id="results" className="section-padding bg-crimson-light">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-14">
-          <h2 className="font-display text-3xl sm:text-4xl font-bold mb-4">
+          <h2 className="font-display text-3xl sm:text-4xl font-bold text-foreground mb-4">
             Proven Results
           </h2>
-          <p className="text-primary-foreground/70 text-lg max-w-2xl mx-auto">
+          <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
             Our students don't just apply — they get in. Here's the proof.
           </p>
         </div>
