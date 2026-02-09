@@ -33,7 +33,7 @@ export function EssayDatabaseSection() {
           ))}
         </div>
 
-        <p className="text-sm text-muted-foreground bg-background border border-primary/10 rounded-lg px-4 py-3 text-center max-w-lg mx-auto">
+        <p className="text-sm text-primary-foreground/70 bg-primary-foreground/10 border border-primary-foreground/20 rounded-lg px-4 py-3 text-center max-w-lg mx-auto">
           Used for learning and structure. We prioritize original voice and authenticity.
         </p>
       </div>
