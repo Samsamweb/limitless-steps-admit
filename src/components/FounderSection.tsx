@@ -17,7 +17,7 @@ export function FounderSection() {
               <img
                 src={founderPhoto}
                 alt="Samuel Jacobowitz, founder of Cambridge College Consulting"
-                className="w-full h-full object-cover object-[center_10%] scale-[1.6]"
+                className="w-full h-full object-cover object-[center_5%] scale-[1.6]"
               />
             </div>
 
