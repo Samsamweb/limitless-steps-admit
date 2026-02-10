@@ -28,12 +28,11 @@ export function HeroSection() {
 
             <h1 className="font-display text-4xl sm:text-5xl lg:text-6xl font-bold text-foreground leading-tight mb-6 animate-fade-in" style={{ animationDelay: "0.1s" }}>
               College Admissions as a{" "}
-              <span className="text-primary">Partnership</span>,{" "}
-              Not a Program
+              <span className="text-primary">Partnership</span>
             </h1>
 
             <p className="text-lg sm:text-xl text-muted-foreground mb-4 max-w-2xl animate-fade-in" style={{ animationDelay: "0.2s" }}>
-              Unlimited meetings and unlimited essay editing with direct founder support.
+              Unlimited meetings and unlimited essay editing with the Harvard student founder.
             </p>
 
             {/* Guarantee integrated */}
