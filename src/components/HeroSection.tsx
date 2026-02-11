@@ -59,7 +59,7 @@ export function HeroSection() {
               <Button
                 size="lg"
                 variant="outline"
-                className="border-foreground/20 text-foreground hover:bg-secondary font-semibold px-8 py-6 text-base"
+                className="bg-primary text-primary-foreground hover:bg-crimson-dark font-semibold px-8 py-6 text-base"
                 onClick={() => document.getElementById("founder")?.scrollIntoView({ behavior: "smooth" })}
               >
                 Meet the Coach
