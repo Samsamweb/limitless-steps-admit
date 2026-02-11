@@ -1,17 +1,7 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Users, Award, GraduationCap, ShieldCheck, ChevronDown } from "lucide-react";
-import harvardImg from "@/assets/harvard-campus.jpg";
-import yaleImg from "@/assets/yale-campus.jpg";
-import stanfordImg from "@/assets/stanford-campus.jpg";
-import princetonImg from "@/assets/princeton-campus.jpg";
-
-const campuses = [
-  { name: "Harvard", img: harvardImg },
-  { name: "Yale", img: yaleImg },
-  { name: "Stanford", img: stanfordImg },
-  { name: "Princeton", img: princetonImg },
-];
+import { ArrowRight, Users, Award, GraduationCap, ShieldCheck } from "lucide-react";
+import founderPhoto from "@/assets/founder-headshot-new.png";
 
 export function HeroSection() {
   return (
@@ -93,38 +83,36 @@ export function HeroSection() {
             </div>
           </div>
 
-          {/* Right side — campus collage */}
-          <div className="animate-fade-in" style={{ animationDelay: "0.3s" }}>
+          {/* Right side — Meet the Founder */}
+          <div className="animate-fade-in flex flex-col items-center" style={{ animationDelay: "0.3s" }}>
             <h3 className="font-display text-2xl font-bold text-foreground text-center mb-6">
-              We Get Students In
+              Meet the Founder
             </h3>
-            <div className="grid grid-cols-2 gap-3">
-              {campuses.map((campus) => (
-                <div key={campus.name} className="relative aspect-[4/3] rounded-xl overflow-hidden group">
-                  <img
-                    src={campus.img}
-                    alt={`${campus.name} University campus`}
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-foreground/70 via-foreground/20 to-transparent" />
-                  <div className="absolute bottom-3 left-3">
-                    <p className="font-display text-sm font-semibold text-background">{campus.name}</p>
-                  </div>
-                </div>
-              ))}
+
+            <div className="shrink-0 w-48 h-72 rounded-3xl overflow-hidden shadow-xl border-2 border-primary/10 mb-6">
+              <img
+                src={founderPhoto}
+                alt="Samuel Jacobowitz, founder of Cambridge College Consulting"
+                className="w-full h-full object-cover object-top"
+              />
             </div>
 
-            {/* Single CTA under collage */}
-            <div className="mt-4 text-center">
-              <Button
-                variant="outline"
-                className="border-primary/30 text-primary hover:bg-crimson-light font-semibold"
-                onClick={() => document.getElementById("testimonials")?.scrollIntoView({ behavior: "smooth" })}
-              >
-                See what families have to say
-                <ChevronDown className="ml-2 h-4 w-4" />
+            <h4 className="font-display text-xl font-semibold text-foreground mb-3">Samuel Jacobowitz</h4>
+            <ul className="space-y-1.5 text-muted-foreground text-sm mb-5 text-center max-w-sm">
+              <li>Studying Economics & Government at Harvard</li>
+              <li>Admitted to Harvard, Yale, Princeton & Columbia Scholars Program</li>
+              <li>50+ students served · 95% success rate</li>
+            </ul>
+
+            <blockquote className="border-l-2 border-primary pl-4 text-foreground italic text-sm max-w-sm mb-5">
+              "I built Cambridge College Consulting to give students what most services cannot: time, partnership, and constant support."
+            </blockquote>
+
+            <Link to="/apply">
+              <Button className="bg-primary text-primary-foreground hover:bg-crimson-dark">
+                Apply Now <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
-            </div>
+            </Link>
           </div>
         </div>
       </div>
