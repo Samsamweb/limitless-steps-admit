@@ -85,11 +85,6 @@ export function HeroSection() {
 
           {/* Right side — Meet the Founder */}
           <div className="animate-fade-in flex flex-col items-center bg-card border border-border/50 rounded-2xl p-8 shadow-lg" style={{ animationDelay: "0.3s" }}>
-            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-crimson-light text-primary text-xs font-medium mb-4">
-              <GraduationCap className="h-3.5 w-3.5" />
-              Harvard University
-            </div>
-
             <h3 className="font-display text-2xl font-bold text-foreground text-center mb-5">
               Meet Your Coach
             </h3>
@@ -102,20 +97,12 @@ export function HeroSection() {
               />
             </div>
 
-            <h4 className="font-display text-xl font-semibold text-foreground mb-2">Samuel Jacobowitz</h4>
-            <ul className="space-y-2 text-muted-foreground text-sm mb-5 text-center max-w-sm">
-              <li className="flex items-center justify-center gap-2">
-                <Award className="h-4 w-4 text-primary shrink-0" />
-                Studying Economics & Government at Harvard
-              </li>
-              <li className="flex items-center justify-center gap-2">
-                <Award className="h-4 w-4 text-accent shrink-0" />
-                Admitted to Harvard, Yale, Princeton & Columbia Scholars Program
-              </li>
-              <li className="flex items-center justify-center gap-2">
-                <Users className="h-4 w-4 text-primary shrink-0" />
-                50+ students served · 95% success rate
-              </li>
+            <h4 className="font-display text-xl font-semibold text-foreground mb-1">Samuel Jacobowitz</h4>
+            <p className="text-primary text-sm font-medium mb-4">Harvard University</p>
+            <ul className="space-y-1.5 text-muted-foreground text-sm mb-5 text-center max-w-sm">
+              <li>Studying Economics & Government at Harvard</li>
+              <li>Admitted to Harvard, Yale, Princeton & Columbia Scholars Program</li>
+              <li>50+ students served · 95% success rate</li>
             </ul>
 
             <blockquote className="border-l-2 border-primary pl-4 text-foreground italic text-sm max-w-sm mb-6">
