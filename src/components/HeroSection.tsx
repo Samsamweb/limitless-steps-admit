@@ -32,7 +32,7 @@ export function HeroSection() {
             </h1>
 
             <p className="text-lg sm:text-xl text-muted-foreground mb-4 max-w-2xl animate-fade-in" style={{ animationDelay: "0.2s" }}>
-              Unlimited meetings and unlimited essay editing with the Harvard student founder.
+              Unlimited meetings and unlimited essay editing.
             </p>
 
             {/* Guarantee integrated */}
@@ -60,9 +60,9 @@ export function HeroSection() {
                 size="lg"
                 variant="outline"
                 className="border-foreground/20 text-foreground hover:bg-secondary font-semibold px-8 py-6 text-base"
-                onClick={() => document.getElementById("process")?.scrollIntoView({ behavior: "smooth" })}
+                onClick={() => document.getElementById("founder")?.scrollIntoView({ behavior: "smooth" })}
               >
-                See How It Works
+                Meet the Coach
               </Button>
             </div>
 
