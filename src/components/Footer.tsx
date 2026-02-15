@@ -10,7 +10,7 @@ export function Footer() {
               <div className="w-7 h-7 rounded bg-primary flex items-center justify-center">
                 <span className="text-primary-foreground font-display font-bold text-xs">C</span>
               </div>
-              <span className="font-display font-semibold text-lg">Cambridge College Consulting</span>
+              <span className="font-display font-semibold text-lg">Cambridge Academic Consulting</span>
             </div>
             <p className="text-sm opacity-60 max-w-sm">
               Premium college admissions consulting with unlimited support and a results guarantee.
@@ -30,7 +30,7 @@ export function Footer() {
           </div>
         </div>
         <div className="mt-8 pt-6 border-t border-background/10 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs opacity-50">
-          <span>© {new Date().getFullYear()} Cambridge College Consulting. All rights reserved.</span>
+          <span>© {new Date().getFullYear()} Cambridge Academic Consulting. All rights reserved.</span>
           <span>Privacy Policy</span>
         </div>
       </div>

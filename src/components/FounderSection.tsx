@@ -16,7 +16,7 @@ export function FounderSection() {
             <div className="shrink-0 w-48 h-72 rounded-3xl overflow-hidden mx-auto md:mx-0 shadow-xl border-2 border-primary/10">
               <img
                 src={founderPhoto}
-                alt="Samuel Jacobowitz, founder of Cambridge College Consulting"
+                alt="Samuel Jacobowitz, founder of Cambridge Academic Consulting"
                 className="w-full h-full object-cover object-top"
               />
             </div>
@@ -32,7 +32,7 @@ export function FounderSection() {
               </ul>
 
               <blockquote className="border-l-2 border-primary pl-4 text-foreground italic mb-6">
-                "I built Cambridge College Consulting to give students what most services cannot: time, partnership, and constant support."
+                "I built Cambridge Academic Consulting to give students what most services cannot: time, partnership, and constant support."
               </blockquote>
 
               <Link to="/apply">
