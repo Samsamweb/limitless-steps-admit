@@ -46,14 +46,6 @@ export function HeroSection() {
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Button>
               </Link>
-              <Button
-                size="lg"
-                variant="outline"
-                className="bg-primary text-primary-foreground hover:bg-crimson-dark font-semibold px-8 py-6 text-base"
-                onClick={() => document.getElementById("founder")?.scrollIntoView({ behavior: "smooth" })}
-              >
-                Meet the Coach
-              </Button>
             </div>
 
             {/* Trust chips */}

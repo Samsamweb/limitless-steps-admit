@@ -56,7 +56,7 @@ export function Header() {
               Cambridge Academic Consulting
             </span>
             <span className="text-[10px] text-muted-foreground tracking-wide">
-              A division of Cambridge College Consulting
+              College Admissions Consulting
             </span>
           </div>
           <span className="font-display font-semibold text-lg text-foreground sm:hidden">
