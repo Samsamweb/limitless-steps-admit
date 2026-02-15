@@ -45,7 +45,7 @@ export default function Apply() {
               </div>
 
               <h1 className="font-display text-3xl sm:text-4xl font-bold text-foreground mb-4">
-                Apply to Work With Cambridge College Consulting
+                Apply to Work With Cambridge Academic Consulting
               </h1>
 
               <p className="text-muted-foreground mb-8">

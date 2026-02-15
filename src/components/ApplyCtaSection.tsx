@@ -7,7 +7,7 @@ export function ApplyCtaSection() {
     <section id="apply" className="section-padding bg-foreground text-background">
       <div className="max-w-3xl mx-auto text-center">
         <h2 className="font-display text-3xl sm:text-4xl font-bold mb-4">
-          Apply to Work With Cambridge College Consulting
+          Apply to Work With Cambridge Academic Consulting
         </h2>
         <p className="text-lg opacity-80 mb-2">
           We accept only 20 students per year. 8 spots remaining.

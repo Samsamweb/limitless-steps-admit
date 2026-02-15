@@ -51,11 +51,16 @@ export function Header() {
           <div className="w-8 h-8 rounded bg-primary flex items-center justify-center">
             <span className="text-primary-foreground font-display font-bold text-sm">C</span>
           </div>
-          <span className="font-display font-semibold text-lg text-foreground hidden sm:inline">
-            Cambridge College Consulting
-          </span>
+          <div className="hidden sm:flex flex-col leading-tight">
+            <span className="font-display font-semibold text-lg text-foreground">
+              Cambridge Academic Consulting
+            </span>
+            <span className="text-[10px] text-muted-foreground tracking-wide">
+              A division of Cambridge College Consulting
+            </span>
+          </div>
           <span className="font-display font-semibold text-lg text-foreground sm:hidden">
-            CCC
+            CAC
           </span>
         </Link>
 

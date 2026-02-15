@@ -46,7 +46,7 @@ export function WhyWeWinSection() {
             <div className="absolute -top-3 left-6 bg-accent text-accent-foreground text-xs font-semibold px-3 py-1 rounded-full">
               Our Approach
             </div>
-            <h3 className="font-display text-xl font-semibold text-foreground mb-6">Cambridge College Consulting</h3>
+            <h3 className="font-display text-xl font-semibold text-foreground mb-6">Cambridge Academic Consulting</h3>
             <ul className="space-y-4">
               {cambridge.map((item) => (
                 <li key={item} className="flex items-start gap-3 text-foreground">
