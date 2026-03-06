@@ -1,40 +1,40 @@
 const testimonials = [
   // Class of 2030
   {
-    quote: "Samuel was always available. When our daughter needed help at 10pm the night before a deadline, he was there.",
-    parent: "Michelle T.",
-    outcome: "Student admitted to Yale University",
+    quote: "Samuel didn't just edit my essays — he helped me figure out who I am and how to tell my story. I couldn't have done it without him.",
+    student: "Michelle T.",
+    outcome: "Admitted to Yale University",
     classYear: "Class of 2030",
   },
   {
-    quote: "Unlimited edits changed everything. The personal statement went through 12 drafts and each one was better than the last.",
-    parent: "James L.",
-    outcome: "Student admitted to Columbia University",
+    quote: "We went through 12 drafts of my personal statement and every single revision made it stronger. He never rushed the process.",
+    student: "Sharvay S.",
+    outcome: "Admitted to UT Austin ECE Honors Program",
     classYear: "Class of 2030",
   },
   {
-    quote: "We never felt alone in the process. Every question was answered, every concern addressed.",
-    parent: "Linda K.",
-    outcome: "Student admitted to Princeton University",
+    quote: "I felt completely lost before working with Samuel. He gave me a clear strategy and was there every step of the way.",
+    student: "Linda K.",
+    outcome: "Admitted to Princeton University",
     classYear: "Class of 2030",
   },
   // Class of 2029
   {
-    quote: "Strategy and execution, not vague advice. Samuel helped my son find a unique angle that made all the difference.",
-    parent: "Robert P.",
-    outcome: "Student admitted to Harvard University",
+    quote: "Samuel helped me find an angle I never would have thought of on my own. That's what set my application apart.",
+    student: "Robert P.",
+    outcome: "Admitted to Harvard University",
     classYear: "Class of 2029",
   },
   {
-    quote: "The essay database gave my daughter real examples to learn from. She understood what worked before she started writing.",
-    parent: "Karen M.",
-    outcome: "Student admitted to UT Austin",
+    quote: "The essay database was a game-changer. Seeing what actually worked at top schools gave me a huge advantage before I even started writing.",
+    student: "Henry H.",
+    outcome: "Admitted to Cornell University",
     classYear: "Class of 2029",
   },
   {
-    quote: "Worth every penny. The guarantee showed confidence, and they delivered on their promise.",
-    parent: "David H.",
-    outcome: "Student admitted to Cornell University",
+    quote: "I was skeptical at first, but Samuel's process just works. He knew exactly what admissions officers were looking for.",
+    student: "David H.",
+    outcome: "Admitted to Columbia University",
     classYear: "Class of 2029",
   },
 ];
@@ -45,18 +45,18 @@ export function TestimonialsSection() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-14">
           <h2 className="font-display text-3xl sm:text-4xl font-bold text-primary-foreground mb-4">
-            What Families Say
+            What Students Say
           </h2>
         </div>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {testimonials.map((t) => (
-            <div key={t.parent} className="bg-primary-foreground rounded-xl p-6 flex flex-col shadow-lg">
+            <div key={t.student} className="bg-primary-foreground rounded-xl p-6 flex flex-col shadow-lg">
               <blockquote className="text-foreground mb-6 flex-1 leading-relaxed italic">
                 "{t.quote}"
               </blockquote>
               <div>
-                <p className="text-sm font-semibold text-foreground">{t.parent}</p>
+                <p className="text-sm font-semibold text-foreground">{t.student}</p>
                 <p className="text-xs text-primary font-medium mt-1">{t.outcome}</p>
                 <p className="text-xs text-muted-foreground mt-0.5">{t.classYear}</p>
               </div>
