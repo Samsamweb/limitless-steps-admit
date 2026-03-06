@@ -1,7 +1,7 @@
 const testimonials = [
   // Class of 2030
   {
-    quote: "Samuel didn't just edit my essays — he helped me figure out who I am and how to tell my story. I couldn't have done it without him.",
+    quote: "Sam didn't just edit my essays — he helped me figure out who I am and how to tell my story. I couldn't have done it without him.",
     student: "Michelle T.",
     outcome: "Admitted to Yale University",
     classYear: "Class of 2030",
@@ -9,30 +9,30 @@ const testimonials = [
   {
     quote: "We went through 12 drafts of my personal statement and every single revision made it stronger. He never rushed the process.",
     student: "Sharvay S.",
-    outcome: "Admitted to UT Austin ECE Honors Program",
+    outcome: "Admitted to UT Austin ECB Program",
     classYear: "Class of 2030",
   },
   {
-    quote: "I felt completely lost before working with Samuel. He gave me a clear strategy and was there every step of the way.",
+    quote: "I felt completely lost before working with Sam, but his guidance, strategy, and dedication completely changed my trajectory.",
     student: "Linda K.",
     outcome: "Admitted to Princeton University",
     classYear: "Class of 2030",
-  },
-  // Class of 2029
-  {
-    quote: "Samuel helped me find an angle I never would have thought of on my own. That's what set my application apart.",
-    student: "Robert P.",
-    outcome: "Admitted to Harvard University",
-    classYear: "Class of 2029",
   },
   {
     quote: "The essay database was a game-changer. Seeing what actually worked at top schools gave me a huge advantage before I even started writing.",
     student: "Henry H.",
     outcome: "Admitted to Cornell University",
+    classYear: "Class of 2030",
+  },
+  // Class of 2029
+  {
+    quote: "Sam helped me find an angle I never would have thought of on my own. That's what set my application apart.",
+    student: "Robert P.",
+    outcome: "Admitted to Harvard University",
     classYear: "Class of 2029",
   },
   {
-    quote: "I was skeptical at first, but Samuel's process just works. He knew exactly what admissions officers were looking for.",
+    quote: "I was skeptical at first, but Sam's process just works. He knew exactly what admissions officers were looking for.",
     student: "David H.",
     outcome: "Admitted to Columbia University",
     classYear: "Class of 2029",
